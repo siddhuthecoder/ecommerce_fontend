@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  overflow-y: auto;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 512px) {
+  .css-1wvake5,
+  aside.sidebar {
+    min-width: 100px;
+    width: 100px;
+  }
+}
